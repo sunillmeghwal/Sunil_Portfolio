@@ -1,6 +1,3 @@
-import { title } from "process";
-import { constants } from "buffer";
-
 export const NavLinks = [
   {
     id: 1,
@@ -43,6 +40,6 @@ export const NavLinks = [
   {
     id: 8,
     url: "#blog",
-    label:"Blog",
+    label: "Blog",
   },
 ];

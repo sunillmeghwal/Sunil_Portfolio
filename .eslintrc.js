@@ -1,0 +1,6 @@
+module.exports = {
+  extends: ["next/core-web-vitals"],
+  rules: {
+    "react/jsx-no-comment-textnodes": "off",
+  },
+};
