@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
@@ -16,16 +17,22 @@ const Projects = () => {
           data-aos-delay="0"
         >
           <Image
-            src="/images/p1.jpg"
+            src="/images/p1.png"
             alt="img"
             width={800}
             height={650}
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Modern Finance Dashboard UI
+            <Link href="https://food-delivery-project-1znw.vercel.app/">
+              {" "}
+              Food Delivery Project
+            </Link>
           </h1>
-          <h1 className="pt-2 font-medium text-white/80"> Apps , UI/UX</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            {" "}
+            React js, Node ,Frontend, Backend
+          </h1>
         </div>
 
         {/* 2nd project */}
@@ -42,9 +49,14 @@ const Projects = () => {
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Portfolio Website for Creatives
+            <Link href="https://myntra-clone-lemon-eight.vercel.app/">
+              {" "}
+              Shopping Web site
+            </Link>
           </h1>
-          <h1 className="pt-2 font-medium text-white/80"> Branding , Motion</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Html ,Css, Frontend
+          </h1>
         </div>
 
         {/* 3rd project */}
@@ -62,9 +74,13 @@ const Projects = () => {
             className="rounded-lg"
           />
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            Brand Identity for Startups
+            <Link href="https://sunil-portfolio-ecru.vercel.app/">
+              Personal Portfolio
+            </Link>
           </h1>
-          <h1 className="pt-2 font-medium text-white/80"> Branding , UI/UX</h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Next js, Frontend Project,Responsive
+          </h1>
         </div>
 
         {/* 4th project */}
