@@ -37,7 +37,7 @@ const Nav = ({ openNav }: Props) => {
             <FaCode className="w-5 h-5 text-black" />
           </div>
           <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
-             SUNIL MEGHWAL
+            SUNIL
           </h1>
         </div>
 
