@@ -26,20 +26,20 @@ export const NavLinks = [
     label: "Skills",
   },
 
-  {
-    id: 6,
-    url: "#testimonials",
-    label: "Testimonials",
-  },
+  // {
+  //   id: 6,
+  //   url: "#testimonials",
+  //   label: "Testimonials",
+  // },
   {
     id: 7,
     url: "#contact",
     label: "Contact",
   },
 
-  {
-    id: 8,
-    url: "#blog",
-    label: "Blog",
-  },
+  // {
+  //   id: 8,
+  //   url: "#blog",
+  //   label: "Blog",
+  // },
 ];

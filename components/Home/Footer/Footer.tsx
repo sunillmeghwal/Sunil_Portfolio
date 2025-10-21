@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-blue-900/20 p-5">
       <h1 className=" text-lg text-white/70 text-center">
-        Sunil - Personal Portfolio Website
+        Sunil - Personal Portfolio Website@2025
       </h1>
     </div>
   );

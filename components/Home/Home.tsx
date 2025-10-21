@@ -27,12 +27,12 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Hero />
-      <Services />
+      {/* <Services /> */}
       <Resume />
       <Projects />
       <Skills />
-      <ClientReview />
-      <Blog />
+      {/* <ClientReview />
+      <Blog /> */}
       <Contact />
     </div>
   );

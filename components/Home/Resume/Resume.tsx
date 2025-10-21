@@ -18,9 +18,22 @@ const Resume = () => {
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
           >
-            <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
-            <ResumeCard Icon={FaReact} role="Front-End Developer" />
-            <ResumeCard Icon={BsDatabase} role="Backend Developer" />
+            <ResumeCard
+              Icon={FaReact}
+              role="Front-End Developer"
+              description="Passionate Frontend Developer skilled in building modern, responsive, and high-performance web applications using React.js and Next.js. Experienced in creating dynamic user interfaces, optimizing performance, and delivering seamless user experiences with clean, maintainable code."
+            />
+
+            <ResumeCard
+              Icon={BsDatabase}
+              role="Backend Developer"
+              description="Dedicated Backend Developer with experience in building secure, scalable, and efficient server-side applications. Proficient in Node.js, Express.js, and database management using MongoDB. Skilled in designing RESTful APIs, handling authentication, and integrating frontend interfaces for seamless full-stack functionality."
+            />
+            {/* <ResumeCard
+              Icon={FaCodepen}
+              role="Full-Stack Developer"
+              description=""
+            /> */}
           </div>
         </div>
         {/*Education */}
@@ -36,19 +49,30 @@ const Resume = () => {
           >
             <ResumeCard
               Icon={BiBadge}
-              role="Design Institute of Technology"
-              date="Jan 2023 - Dec 2024"
+              role="Master of Computer Applications (MCA)"
+              description=""
+              date="2013-2016"
             />
             <ResumeCard
               Icon={FaReact}
-              role="Bachelor in Computer Science"
-              date="Jan 2019 - Dec 2022"
+              role="Bachelor of Computer Applications (BCA)"
+              date="2010-2013"
+              description=""
             />
 
             <ResumeCard
               Icon={BsDatabase}
-              role="Certificate in Digital Marketing"
-              date="Jan 2016 - Dec 2019"
+              role="Certificate in FrontEnd Development from Engramers Institute Bikaner"
+              date="Feb 2025- June-2025"
+              description=""
+            />
+
+            <ResumeCard
+              Icon={FaReact}
+              role="Internship"
+              description="Full Stack Development Intern
+G-Axon Tech Pvt. Ltd., Bikaner"
+              date="July 2025-Current"
             />
           </div>
         </div>

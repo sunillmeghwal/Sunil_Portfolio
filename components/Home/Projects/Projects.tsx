@@ -85,7 +85,7 @@ const Projects = () => {
 
         {/* 4th project */}
 
-        <div
+        {/* <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
           data-aos-delay="300"
@@ -101,7 +101,7 @@ const Projects = () => {
             SaaS Dashboard Development
           </h1>
           <h1 className="pt-2 font-medium text-white/80"> Apps , UI/UX</h1>
-        </div>
+        </div> */}
       </div>
     </div>
   );
